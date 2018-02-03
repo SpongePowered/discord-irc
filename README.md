@@ -90,7 +90,8 @@ First you need to create a Discord bot user, which you can do by following the i
       "irc": ["irc_nick1", "irc_nick2"], // Ignore specified IRC nicks and do not send their messages to Discord.
       "discord": ["discord_nick1", "discord_nick2"] // Ignore specified Discord nicks and do not send their messages to IRC.
     },
-    "discordStatus": "IRC"
+    "discordActivityStatus": "Super Awesome IRC Game", // The activitiy the bot is performing (AKA: Playing Super Awesome IRC Game)
+    "discordActivityType": "PLAYING" // See: https://discord.js.org/#/docs/main/stable/typedef/ActivityType
   }
 ]
 ```
